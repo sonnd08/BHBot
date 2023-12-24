@@ -1,0 +1,12 @@
+{
+  "name": "BHBot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:sonnd08/BHBot.git",
+  "author": "Son Nguyen <001.IcedTea@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "install": "pip install fontTools keyboard mouse PySimpleGUI PyUpdater pywin32 requests Pillow psutil regex",
+    "build": "python -m PyInstaller --onedir --windowed --icon icon.ico --name BHBot --add-data icon.ico;. --add-data languages;languages/ --add-data fonts;fonts/ --add-data modes/default;modes/default/ --add-data modes/examples;modes/examples/ gui.py"
+  }
+}

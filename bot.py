@@ -200,7 +200,7 @@ class BrawlhallaBot:
                 'colors': ((55, 66, 100), (57, 67, 101)),
             },
             'sorted_by_date': {
-                'pixels': ((410, 768),),
+                'pixels': ((324, 768),),
                 'colors': ((254, 254, 255),),
             },
             'lobby': {
